@@ -1,0 +1,52 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build Results
+bin/
+obj/
+Debug/
+Release/
+
+# NuGet
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Rider
+.idea/
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# Logs
+*.log
+
+# Web.config and other sensitive files
+appsettings*.json
+
+# Other
+.DS_Store
+Thumbs.db
+*.tmp
+*.bak
+*.swp
+*~
+
+# Coverage Reports
+*.coverage
+*.coveragexml
+*.coveragejson
+*.trx
+*.cobertura.xml
+coverage.opencover.xml
+coverage.opencover.json
+TestResults/
